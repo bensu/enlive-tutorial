@@ -172,7 +172,7 @@ tutorial.scrape1=> (map + [1 2 3] [4 5 6])
 
 Wow you can map two different vectors into one! Finally we have <code>doseq</code>. <code>doseq</code> is just a convenient way to work with lists when you're dealing with *side effects* like printing to the REPL. I'm not going to get into that here. All it does is say take a list of things, assign each thing one at time to a variable, and then execute the following expressions (hopefully you're actually doing something with that variable!)
 
-Not bad for 23 lines of code. One obvious problem here is that we make two separate requests for the Hacker News front page. Let's fix this now.
+Not bad for 25 lines of code. One obvious problem here is that we make two separate requests for the Hacker News front page. Let's fix this now.
 
 h2. Your Second Scrape - Improvements
 
