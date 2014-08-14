@@ -1,0 +1,4 @@
+(load "tutorial/scrape1")
+(in-ns 'tutorial.scrape1)
+*base-ur;*
+*base-url*
