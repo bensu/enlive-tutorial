@@ -10,7 +10,7 @@
 ;; ========================================
 ;; The App
 ;; =======================================
-=
+
 (def routes
   (app
    [""]       (fn [req] (render-to-response
@@ -19,5 +19,5 @@
                          (index {:message "We changed the message!"})))
    [&]        {:status 404
                :body "Page Not Found"}))
- 
+
 (defonce ^:dynamic *server* (run-server routes))
