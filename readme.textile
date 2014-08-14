@@ -176,7 +176,7 @@ Not bad for 25 lines of code. One obvious problem here is that we make two separ
 
 h2. Your Second Scrape - Improvements
 
-Take a look at "*scrape2.clj*":src/tutorial/scrape2.clj. It's also about 17 lines of code and it looks pretty much the same except that we no longer have one function to grab headlines and another for article points.
+Take a look at "*scrape2.clj*":src/tutorial/scrape2.clj. It's also about 20 lines of code and it looks pretty much the same except that we no longer have one function to grab headlines and another for article points.
 
 <pre>
 (defn hn-headlines-and-points []
